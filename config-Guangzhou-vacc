@@ -1,0 +1,38 @@
+# setup Guangzhou 2021-5
+runlength 50
+prestrategy prevaccinate
+vaccinationfraction 0.3
+vaccinedata 0 0.6 0.6 0.6 1 1 0 0 0 1 1
+communitycontactreduction 0.95
+PTRestriction 0
+PTRestrictiondays 45
+communitycontactreductiondays 40
+voluntaryisolation 1
+travel 0
+mask 0.95
+maskdays 45
+label Guangzhou-2021-5
+datafile Guangzhou
+summaryfilename Summary-Guangzhou-ITER
+R0 3.8
+randomnumberseed 1
+seedinfected 90
+seedinfecteddaily 0
+essentialfraction 0.02343
+responseday 10
+schoolclosurepolicy bytract
+schoolclosuredays 45
+ascertainmentdelay 1
+ascertainmentfraction 1
+ascertainedisolation 1
+quarantine 1
+liberalleave 1
+liberalleavedays 45
+# 30
+workfromhome 0.4
+workfromhomedays 25
+# 17
+cpcm 0.00001 0.00003 0.00005 0.0001 0.0002
+cpnh 0.00002 0.00001 0.0001 0.0002 0.001
+cphcc 0.0001 0.0001 0.0001 0.0005 0.003
+cphca 0.001 0.001 0.001 0.001 0.008

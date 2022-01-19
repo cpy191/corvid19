@@ -1,0 +1,85 @@
+Corvid version: 0.6
+Label: Guangzhou-2021-5
+Population: Guangzhou
+beta: 0.255499
+R0: 3.8
+Random number generator seed: 1
+Tracts: 3407
+day: 55
+epidemic size: 219
+Communities: 9336
+Families: 7457911
+People: 18650608
+People work away from home: 11056411
+Essential worker fraction: 0.02343
+Travel allowed: 0
+School opening days: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+cpcm: 1e-05,3e-05,5e-05,0.0001,0.0002,
+cpnh: 2e-05,1e-05,0.0001,0.0002,0.001,
+cphcc: 0.0001,0.0001,0.0001,0.0005,0.003,
+cphca: 0.001,0.001,0.001,0.001,0.008,
+Seeded 90 infected people
+Seeded (n/10000) at airports: 0
+Seeded once
+Protection from pre-existing immunity: 1
+Pre-existing immunity fraction by age: 0,0,0,0,0,
+Baseline VES by age: 0,0,0,0,0,
+Prevaccination strategy: prevaccination
+Reactive vaccination strategy: none
+Vaccine priorities : 1,1,1,1,1,1,1,1,1,1,1,1,1,
+Response threshold: 0
+PT Restriction: 0.2
+Response delay: 1
+Ascertainment delay: 1
+Ascertainment fraction: 1
+Reactive strategies deployed on day: 10
+School closure policy: bytract
+School closure days: 14
+Voluntary isolation: 1
+Ascertained isolation: 1
+Quarantine: 1
+Quarantine duration: 21
+Liberal leave compliance: 1
+Liberal leave duration: 45
+Work from home compliance: 0.7
+Work from home duration: 40
+Mask wear compliance: 0.95
+Mask wear duration: 45
+Community contact reduction: 0.3
+Community contact reduction duration: 40
+Antiviral policy: none
+Vaccination fraction: 0.3
+Vaccines initially available: 4294967295,
+Vaccines deliverable per day: 4294967295
+Antivirals available: 4294967295
+Antivirals deliverable per day: 4294967295
+Vaccines used: 4732640,
+Antivirals used: 0
+VEs 0: 0.6
+VEi 0: 0.6
+VEp 0: 0.6
+vaccine 0 doses/person: 1
+vaccine 0 restrictions (infants, pre-school age children, school age children, young adults, older adults, elderly, pregnant): 1,1,0,0,0,1,1
+vaccine 0 efficacy buildup: 0 0.001 0.005 0.015 0.033 0.061 0.1 0.152 0.218 0.301 0.401 0.519 0.658 0.818 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+Relative vaccine efficacy by age: 0.6,0.6,0.6,0.6,0.6,
+Needs boost by age and school: 0,0,0,0,0,0,0,0,
+AVEs: 0.6
+AVEp: 0.6
+AVEi: 0.6
+Cumulative vaccines used (daily) 0: 4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,4732640,
+Number symptomatic (daily): 0,0,0,0,2,12,28,31,40,46,49,55,63,71,78,85,93,100,111,116,119,73,81,89,98,101,101,99,97,92,87,80,76,70,65,61,57,57,54,46,39,35,36,35,29,30,29,27,24,23,20,18,16,15,14,14,9,8,8,5,5,
+Number workers infected (daily): 0,0,0,0,0,2,0,3,1,1,3,0,0,9924627,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Number workers infectious (daily): 0,104,104,104,106,105,118,124,141,143,157,175,185,183,187,189,186,185,191,192,196,197,124,124,128,128,129,122,118,110,102,88,77,65,63,57,54,53,50,42,36,29,27,26,25,21,18,16,13,10,8,8,8,7,7,6,6,4,4,2,3,
+Number commute workers exposed (daily): 50,50,160,170,200,210,170,170,170,170,150,160,140,170,150,150,110,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,
+Cumulative symptomatic (daily): 0,0,0,0,2,12,28,31,40,46,49,55,63,71,78,85,93,100,111,116,119,125,133,141,151,155,165,170,174,178,180,185,187,188,190,191,193,198,201,204,206,208,212,212,212,214,215,217,217,217,217,217,218,218,219,219,219,219,219,219,219,
+Total infection attack rates by age: 1.04792e-05,4.03928e-05,7.56875e-06,1.69216e-05,4.37439e-05,
+Total infection attack rate: 2.0053e-05
+Total infected individuals by age: 8,64,25,184,93,
+Total symptomatic attack rates by age: 3.9297e-06,2.46144e-05,3.633e-06,9.93224e-06,2.68108e-05,
+Total symptomatic attack rate: 1.17422e-05
+Total symptomatic individuals by age: 3,39,12,108,57,
+Total symptomatic unvaccinated individuals by age: 3,33,8,87,57,
+Total symptomatic vaccinated individuals by age (vaccine 0): 0,0,0,0,0,
+Total unvaccinated individuals by age: 763418,1109537,2312074,7606927,2126012,
+Total vaccinated individuals by age (vaccine 0): 0,23853,49348,163057,0,
+Total individuals by age: 763418,1584439,3303055,10873684,2126012,

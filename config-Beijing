@@ -1,0 +1,35 @@
+# setup Beijing 2020-2
+runlength 80
+communitycontactreduction 0.8
+communitycontactreductiondays 60
+PTRestriction 0.4
+PTRestrictiondays 40
+voluntaryisolation 1
+travel 1
+mask 0.95
+maskdays 60
+label Beijing-2020-2
+datafile Beijing
+summaryfilename Summary-Beijing-ITER
+R0 3.8
+randomnumberseed 2
+seedinfected 170
+seedinfecteddaily 0
+essentialfraction 0.02343
+responseday 10
+schoolclosurepolicy bytract
+schoolclosuredays 180
+ascertainmentdelay 1
+ascertainmentfraction 1
+ascertainedisolation 1
+quarantine 1
+liberalleave 1
+liberalleavedays 60
+# 30
+workfromhome 0.5
+workfromhomedays 60
+# 17
+cpcm 0.0000109 0.0000326 0.000087 0.000087 0.000174
+cpnh 0.0000435 0.0001305 0.000348 0.000348 0.000696
+cphcc 0.08 0.08 0.037 0.037 0.037
+cphca 0.025 0.025 0.037 0.037 0.037
